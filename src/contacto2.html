@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/sass/main.scss">
+    <link rel="icon" href="assets/images/Pokeball.png"/>
+    <script src="https://kit.fontawesome.com/e99d786c3b.js" crossorigin="anonymous"></script>
+    <title>PokeAPI</title>
+  </head>
+  <body>
+
+    <header class="mainRegistrado">
+        <div class="mainRegistrado__logos">
+            <a href="registrado.html"><img src="assets/images/Pokeball.png"/></a>
+            <img class="nombre" src="assets/images/logo.png"/>
+        </div>
+        <ul class="mainRegistrado__navegacion">
+          <li class="mainRegistrado__navegacion__opcion"><a href="listado2.html">Listado</a></li>
+          <li class="mainRegistrado__navegacion__opcion"><a href="contacto2.html">Contacto</a></li>
+          <li class="mainRegistrado__navegacion__opcion"><a href="usuario.html">Usuario1</a></li>
+          <li class="mainRegistrado__navegacion__opcion1"><a href="usuario.html"><img src="assets/images/perfil.png"/></a></li>
+        </ul>
+        <img src="assets/images/menu.png" class="menu" id="botonHamburguesa"/>
+    </header>
+
+
+    <main class="registroycontacto">
+        <form class="registroycontacto__formulario" action="registrado.html">
+            <p class="registroycontacto__formulario__texto">Correo:</p>
+            <input class="registroycontacto__formulario__rellenable" type="text">
+            <p class="registroycontacto__formulario__texto">Usuario:</p>
+            <input class="registroycontacto__formulario__rellenable" type="text">
+            <p class="registroycontacto__formulario__texto">Descripcion:</p>
+            <textarea class="registroycontacto__formulario__explicacion">
+            <button type="submit" class="registroycontacto__formulario__boton">Enviar</button>
+        </form>
+
+      <img class="registroycontacto__Imagen" src="assets/images/Pokeball.png">
+    </main>
+
+
+    <footer class="piePagina">
+      <ul>
+        <li><span class="fa-brands fa-square-facebook"></span></li>
+        <li><span class="fa-brands fa-instagram"></span></li>
+        <li><span class="fa-brands fa-square-twitter"></span></li>
+      </ul>
+      <img src="assets/images/logo.png"/>
+      <ul>
+        <li>Aviso Legal</li>
+        <li>Politica de cookies</li>
+      </ul>
+    </footer>
+
+    <div class="menuDesplegable">
+        <a class="menuDesplegable__opcion" href="listado2.html">Listado</a>
+        <a class="menuDesplegable__opcion" href="contacto2.html">Contacto</a>
+        <a class="menuDesplegable__opcion" href="usuario.html">Usuario1</a>
+        <a class="menuDesplegable__opcion1" href="usuario.html"><img src="assets/images/perfil.png"/></a>
+      </div>
+      <div class="fondo"></div>
+      <script src="assets/js/index.js"></script>
+    
+  </body>
+</html>
